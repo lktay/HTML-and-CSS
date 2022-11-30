@@ -1,0 +1,10 @@
+.box-1 {
+  /* TROUBLE TOP RIGHT BOTTOM LEFT */
+  padding: 30px 30px 40px 50px;
+}
+
+.box-2 {
+  /* GIVE TOP AND BOTTOM 30, LEFT AND RIGHT 50 */
+  margin: 30px 50px;
+  margin: 30px 70px;
+}
