@@ -19,8 +19,8 @@ section {
 
 /* Add a declaration to make the wrapper to display flex */
 .wrapper {
+  display: flex;
   border: 1px solid rgb(219, 219, 219);
-
 }
 
 input {
@@ -33,22 +33,19 @@ input {
 Both should have a flex shrink property of 1 and a flex basis set the default value.
 The flex grow property for the text input should be set to 2 and to 1 for the submit button. */
 
-
 input[type="text"] {
   background-color: rgba(75, 21, 97, 0.5);
   border-radius: 5px 0px 0px 5px;
-  /* Your code here */
-
+  flex-shrink: 1;
+  flex-basis: auto;
+  flex-grow: 2;
 }
-
 
 input[type="submit"] {
   background-color: rgba(75, 21, 97, 1);
   color: #fff;
   border-radius: 0px 5px 5px 0px;
-  /* Your code here */
-
+  flex-shrink: 1;
+  flex-basis: auto;
+  flex-grow: 1;
 }
-
-
-

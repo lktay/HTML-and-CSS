@@ -1,0 +1,62 @@
+body {
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: black;
+  }
+  .medium,
+  .large,
+  .larger,
+  .largest {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  body {
+    background-color: red;
+  }
+  .small,
+  .large,
+  .larger,
+  .largest {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+  .small,
+  .medium,
+  .larger,
+  .largest {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  body {
+    background-color: green;
+  }
+  .small,
+  .medium,
+  .large,
+  .largest {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: yellow;
+  }
+  .small,
+  .medium,
+  .large,
+  .larger {
+    display: none;
+  }
+}

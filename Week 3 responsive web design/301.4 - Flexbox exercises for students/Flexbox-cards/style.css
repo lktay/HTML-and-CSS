@@ -19,33 +19,28 @@ body {
 4. Finally add a flex wrap property. */
 .card-container {
   max-width: 800px;
-
-
-
-
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
 }
-
-
-
 
 /* Make the card display flex and change it's flex direction so that it displays vertically */
 .card {
   border: 2px solid rgb(137, 133, 143);
   border-radius: 10px;
   width: 220px;
-
-
+  display: flex;
+  flex-direction: column;
 }
-
-
 
 /* Use the flex shorthand syntax to give the .content
  a flex grow of 1, a flex shrink of 1 and a flex basis of auto. */
 .card .content {
   padding: 1rem;
-
+  flex-grow: 1;
+  flex-basis: auto;
 }
-
 
 .card footer {
   background-color: rgba(133, 131, 138, 0.2);
